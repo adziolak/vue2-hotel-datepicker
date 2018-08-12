@@ -8,7 +8,7 @@
 | price                         | Number          | 0                             | Price for one night                             |
 | label                         | String          |                               | Display label above picker input                |
 | monday-first                  | Boolean         | true                          | Set up first day of week                        |
-| format                        | String          | dd MMM yyyy                   | Date formatting string or function              |
+| format                        | String          | dd MMM yyyy                   | Date formatting string                          |
 | translation                   | Object          |                               | See below for configuration                     |
 | available-dates               | Object          |                               | See below for configuration                     |
 | total-votes                   | Number          | 0                             | Display total votes for hotel                   |
