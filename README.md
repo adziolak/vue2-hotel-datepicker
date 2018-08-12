@@ -12,7 +12,7 @@
 | translation                   | Object          |                               | See below for configuration                     |
 | available-dates               | Object          |                               | See below for configuration                     |
 | total-votes                   | Number          | 0                             | Display total votes for hotel                   |
-| rating                        | Number          | 0                             | Show in stars hotel rating                      |
+| rating                        | Number          | 0                             | Show hotel rating                               |
 | start-active-color            | String          | #388188                       | Color for active star                           |
 | start-inactive-color          | String          | #d8d8d8                       | Star background color                           |
 | updated-info                  | String          |                               | Display infomation when calendar was updated    |
