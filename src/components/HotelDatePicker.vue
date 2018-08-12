@@ -7,8 +7,8 @@
                 :increment      = 0.5 
                 :star-size      = 12 
                 :total-votes    = "totalVotes" 
-                :active-color   = "startActiveColor" 
-                :inactive-color = "startInactiveColor"
+                :active-color   = "starActiveColor" 
+                :inactive-color = "starInactiveColor"
             ></star-rating>
         </header>
         <label v-show="label">{{label}} </label>
@@ -97,11 +97,11 @@ export default {
             type: Number,
             default: 0
         },
-        startActiveColor: {
+        starActiveColor: {
             type: String,
             default: '#388188'
         },
-        startInactiveColor: {
+        starInactiveColor: {
             type: String,
             default: '#d8d8d8'
         },
