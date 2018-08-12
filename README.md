@@ -4,7 +4,7 @@
 
 | Prop                          | Type            | Default                       | Description                                     |
 |-------------------------------|-----------------|-------------------------------|-------------------------------------------------|
-| value                         | Object          | { start: null, end: null }    | Date value of the datepicker                    |
+| value                         | Object          | { start: null, end: null }    | Value of the datepicker                    |
 | price                         | Number          | 0                             | Price for one night                             |
 | label                         | String          |                               | Display label above picker input                |
 | monday-first                  | Boolean         | true                          | Set up first day of week                        |
@@ -75,7 +75,7 @@ var availableDates: {
   }
 
 </script>
-<vue2-hotel-datepicker :availableDates="availableDates"></vue2-hotel-datepicker>
+<vue2-hotel-datepicker :available-dates="availableDates"></vue2-hotel-datepicker>
 ```
 
 ## Demo
