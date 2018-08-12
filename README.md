@@ -1,50 +1,22 @@
 # vue2-hotel-datepicker
 
-## Install
-
-``` javascript
-import HotelDatePicker from 'vue2-hotel-datepicker';
-
-export default {
-  // ...
-  components: {
-    HotelDatePicker
-  }
-  // ...
-}
-
-```
-
-## Usage
-
-``` html
-<vue2-hotel-datepicker></vue2-hotel-datepicker>
-```
-
-``` html
-<script>
-    var date: new Date(2018, 9,  16)
-</script>
-<vue2-hotel-datepicker :value="date"></vue2-hotel-datepicker>
-```
-
 ## Available props
 
-| Prop                          | Type            | Default     | Description                                     |
-|-------------------------------|-----------------|-------------|-------------------------------------------------|
-| value                         | Date\|String    |             | Date value of the datepicker                    |
-| price                         | Number          | 0           | Price for one night                             |
-| label                         | String          |             | Display label above picker input                |
-| MondayFirst                   | Boolean         | false       | Set up first day of week                        |
-| format                        | String          | dd MMM yyyy | Date formatting string or function              |
-| translation                   | Object          |             | See below for configuration                     |
-| availableDates                | Object          |             | See below for configuration                     |
-| totalVotes                    | Number          | 0           | Display total votes for hotel                   |
-| rating                        | Number          | 0           | Show in stars hotel rating                      |
-| startActiveColor              | String          | #388188     | Color for active star                           |
-| startInactiveColor            | String          | #d8d8d8     | Star background color                           |
-| updatedInfo                   | String          |             | Display infomation when calendar was updated    |
-| extraInfo                     | String          |             | Display some extra information above extraInfo  |
+| Prop                          | Type            | Default                       | Description                                     |
+|-------------------------------|-----------------|-------------------------------|-------------------------------------------------|
+| value                         | Object          | { start: null, end: null }    | Date value of the datepicker                    |
+| price                         | Number          | 0                             | Price for one night                             |
+| label                         | String          |                               | Display label above picker input                |
+| monday-first                  | Boolean         | true                          | Set up first day of week                        |
+| format                        | String          | dd MMM yyyy                   | Date formatting string or function              |
+| translation                   | Object          |                               | See below for configuration                     |
+| available-dates               | Object          |                               | See below for configuration                     |
+| total-votes                   | Number          | 0                             | Display total votes for hotel                   |
+| rating                        | Number          | 0                             | Show in stars hotel rating                      |
+| start-active-color            | String          | #388188                       | Color for active star                           |
+| start-inactive-color          | String          | #d8d8d8                       | Star background color                           |
+| updated-info                  | String          |                               | Display infomation when calendar was updated    |
+| extra-info                    | String          |                               | Display some extra information above extraInfo  |
 
 
 ## Events
@@ -78,8 +50,8 @@ export default {
 | MM    | 0 prefixed month       | 01          |
 | MMM   | abbreviated month name | Jan         |
 | MMMM  | month name             | January     |
-| yy    | two digit year         | 16          |
-| yyyy  | four digit year        | 2016        |
+| yy    | two digit year         | 18          |
+| yyyy  | four digit year        | 2018        |
 
 ## Available Dates
 
@@ -115,5 +87,5 @@ var availableDates: {
 ```
 
 ``` html
-    http://localhost:3000
+    <a href="http://localhost:3000">http://localhost:3000</a>
 ```
