@@ -24,7 +24,7 @@
 | Event             | Output     | Description                               |
 |-------------------|------------|-------------------------------------------|
 | selected          | Object     | When check in and check out are selected  |
-| input             | Date\|null | Input value has been modified             |
+| input             | Object     | Input value has been modified             |
 
 ## Translations
 
@@ -87,5 +87,5 @@ var availableDates: {
 ```
 
 ``` html
-    <a href="http://localhost:3000">http://localhost:3000</a>
+    http://localhost:3000
 ```
